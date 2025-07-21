@@ -180,7 +180,7 @@ ul{
 }
 
 .hero-content h1{
-    font-size: 3.1rem;
+    font-size: 3rem;
     margin-bottom: 16px;
 }
 
@@ -237,15 +237,23 @@ ul{
   margin: 70px 165px 100px 165px;
   border-top: 1px solid #ebeff3;
   border-bottom: 1px solid #ebeff3;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  /* padding: 35px 61px 35px 61px; */
   align-content: center;
   display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  justify-content: center;
 }
 
 .first-img img{
+  margin-right: 50px;
+}
+
+.second-images{
+  display: flex;
+}
+
+.second-img img{
   margin-right: 50px;
 }
 
