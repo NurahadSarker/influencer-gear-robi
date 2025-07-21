@@ -129,6 +129,8 @@
 
 /* shared style end here */
 
+/* navigation-bar design start here */
+
 nav h1{
     font-size: 1.6rem;
 }
@@ -166,15 +168,9 @@ ul{
     display: flex;
 }
 
-.hero-img .img-01{
-    height: 475px;
-    width: 475px;
-}
+/* navigation-bar design end here */
 
-.hero-img .img-01{
-    height: 414px;
-    width: 440px;
-}
+/* hero section design start here */
 
 .hero{
     display: flex;
@@ -210,6 +206,20 @@ ul{
     background-color: rgb(236, 94, 146);
 }
 
+.hero-img .img-01{
+    height: 475px;
+    width: 475px;
+}
+
+.hero-img .img-01{
+    height: 414px;
+    width: 440px;
+}
+
+.hero-img{
+  position: relative;
+}
+
 .img-01{
   position: absolute;
 }
@@ -218,6 +228,26 @@ ul{
   position: relative;
 }
 
+/* hero section design end here */
+
+/* responser section design start here */
+
+.responser{
+  height: 110px;
+  margin: 70px 165px 100px 165px;
+  border-top: 1px solid #ebeff3;
+  border-bottom: 1px solid #ebeff3;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding: 35px 61px 35px 61px; */
+  align-content: center;
+  display: flex;
+}
+
+.first-img img{
+  margin-right: 50px;
+}
 
 
 
@@ -245,12 +275,20 @@ ul{
       flex-direction: column-reverse;
     }
 
+    .hero-img{
+      position: relative;
+    }
+
     .img-01{
+      /* max-width: 257px;
+      max-height: 257px; */
       position: absolute;
       margin: 15px 20px 0px 20px;
     }
 
     .img-02{
+      /* max-width: 202px;
+      max-height: 190px; */
       position: relative;
       margin: 15px 20px 0px 20px;
     }
@@ -348,6 +386,11 @@ ul{
     .hero{
       flex-direction: column-reverse;
     }
+
+    .hero-content{
+      text-align: center;
+      margin-right: 0px;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width:1070px) {
@@ -368,5 +411,10 @@ ul{
 
     .hero{
       flex-direction: column-reverse;
+    }
+
+    .hero-content{
+      text-align: center;
+      margin-right: 0px;
     }
 }
