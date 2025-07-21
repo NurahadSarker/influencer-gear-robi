@@ -223,7 +223,7 @@ ul{
 
 /* Responsive design start here */
 
-@media screen and (max-width:520px) {
+@media screen and (max-width:420px) {
     nav{
         text-align: center;
         flex-direction: column;
@@ -276,6 +276,10 @@ ul{
 
     ul li{
         margin-right: 20px;
+    }
+
+    .hero{
+      flex-direction: column-reverse;
     }
 }
 
