@@ -276,7 +276,7 @@ ul{
 
 }
 
-@media screen and (max-width:520px) {
+@media screen and (min-width: 421px) and (max-width:520px) {
     nav{
         text-align: center;
         flex-direction: column;
@@ -329,7 +329,7 @@ ul{
 
 }
 
-@media screen and (max-width:576px) {
+@media screen and (min-width: 521px) and (max-width:576px) {
     nav{
         text-align: center;
         flex-direction: column;
@@ -350,7 +350,7 @@ ul{
     }
 }
 
-@media screen and (max-width:1070px) {
+@media screen and (min-width: 577px) and (max-width:1070px) {
     nav{
         text-align: center;
         flex-direction: column;
