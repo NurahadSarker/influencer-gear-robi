@@ -276,6 +276,59 @@ ul{
 
 }
 
+@media screen and (max-width:520px) {
+    nav{
+        text-align: center;
+        flex-direction: column;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    ul{
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul li{
+        margin-right: 20px;
+    }
+
+    .hero{
+      flex-direction: column-reverse;
+    }
+
+    .img-01{
+      position: absolute;
+      margin: 15px 20px 0px 20px;
+    }
+
+    .img-02{
+      position: relative;
+      margin: 15px 20px 0px 20px;
+    }
+
+    .hero{
+      margin: 20px 50px 20px 50px;
+    }
+
+    .hero-content{
+      text-align: center;
+      margin-right: 0px;
+    }
+
+    .hero-content h1{
+      font-size: 1.75rem;
+      margin-bottom: 16px;
+    }
+
+    .hero-content p{
+      margin-bottom: 16px;
+    }
+
+
+}
+
 @media screen and (max-width:576px) {
     nav{
         text-align: center;
