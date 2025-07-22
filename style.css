@@ -319,6 +319,10 @@ ul{
       margin-bottom: 16px;
     }
 
+    .responser{
+      flex-direction: column;
+    }
+
 
 }
 
